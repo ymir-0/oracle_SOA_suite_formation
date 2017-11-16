@@ -3,10 +3,10 @@
     <con:coreEntry>
         <con1:binding type="SOAP" xsi:type="con:SoapBindingType" isSoap12="false" xmlns:con="http://www.bea.com/wli/sb/services/bindings/config" xmlns:con1="http://xmlns.oracle.com/servicebus/business/config">
             <con:wsdl ref="PaymentValidation/WSDL/ValidatePayment"/>
-            <con:port>
-                <con:name>validatePaymentPortTypePort</con:name>
+            <con:binding>
+                <con:name>validatePaymentBinding</con:name>
                 <con:namespace>http://www.oracle.com/ValidatePayment</con:namespace>
-            </con:port>
+            </con:binding>
         </con1:binding>
         <oper:operations enabled="true">
             <oper:throttling enabled="false"/>

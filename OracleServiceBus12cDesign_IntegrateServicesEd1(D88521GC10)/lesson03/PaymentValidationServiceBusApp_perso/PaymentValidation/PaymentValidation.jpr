@@ -165,7 +165,7 @@
             <value n="name" v="Default"/>
             <hash n="oracle.jdevimpl.runner.debug.DebugConfiguration">
                <value n="promptForRemoteDebugging" v="false"/>
-               <value n="remoteProtocol" v="SOACommon"/>
+               <value n="remoteProtocol" v="OSB"/>
             </hash>
             <url n="targetURL" path="servicebus.sboverview"/>
          </hash>
