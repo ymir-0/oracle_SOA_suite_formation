@@ -12,6 +12,7 @@
     <modules>
         <module>System</module>
         <module>PaymentValidation</module>
+        <module>PaymentValidation_perso</module>
     </modules>
 
 </project>

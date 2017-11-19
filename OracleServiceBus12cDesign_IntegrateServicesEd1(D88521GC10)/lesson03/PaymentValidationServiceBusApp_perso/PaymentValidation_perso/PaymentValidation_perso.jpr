@@ -75,7 +75,7 @@
       <string v="oracle.toplink.workbench.addin/toplinkContentSet"/>
       <string v="oracle.jdeveloper.model.PathsConfiguration/cepContentSet"/>
    </list>
-   <value n="defaultPackage" v="paymentvalidation"/>
+   <value n="defaultPackage" v="paymentvalidation_perso"/>
    <hash n="oracle.adfdtinternal.model.ide.settings.ADFMSettings">
       <hash n="adfmContentSet">
          <list n="pattern-filters"/>
@@ -103,10 +103,7 @@
    <hash n="oracle.ide.model.TechnologyScopeConfiguration">
       <list n="technologyScope">
          <string v="ServiceBusTechnology"/>
-         <string v="WSDL"/>
-         <string v="WSPolicy"/>
          <string v="XML"/>
-         <string v="XML_SCHEMA"/>
       </list>
    </hash>
    <hash n="oracle.jdeveloper.compiler.OjcConfiguration">
@@ -114,21 +111,21 @@
    </hash>
    <hash n="oracle.jdeveloper.deploy.dt.DeploymentProfiles">
       <hash n="profileDefinitions">
-         <hash n="PaymentValidation">
+         <hash n="PaymentValidation_perso">
             <value n="profileClass" v="SbProjectDeployProfile"/>
-            <value n="profileName" v="PaymentValidation"/>
+            <value n="profileName" v="PaymentValidation_perso"/>
          </hash>
       </hash>
       <list n="profileList">
-         <string v="PaymentValidation"/>
+         <string v="PaymentValidation_perso"/>
       </list>
    </hash>
    <hash n="oracle.jdeveloper.maven.compiler.MavenConfiguration">
       <url n="pomfileURL" path="pom.xml"/>
    </hash>
    <hash n="oracle.jdeveloper.model.J2eeSettings">
-      <value n="j2eeWebAppName" v="PaymentValidationServiceBusApp_perso-PaymentValidation-webapp"/>
-      <value n="j2eeWebContextRoot" v="PaymentValidationServiceBusApp_perso-PaymentValidation-context-root"/>
+      <value n="j2eeWebAppName" v="PaymentValidationServiceBusApp_perso-PaymentValidation_perso-webapp"/>
+      <value n="j2eeWebContextRoot" v="PaymentValidationServiceBusApp_perso-PaymentValidation_perso-context-root"/>
       <hash n="webContentSet">
          <list n="pattern-filters"/>
          <list n="url-path">
@@ -165,7 +162,7 @@
             <value n="name" v="Default"/>
             <hash n="oracle.jdevimpl.runner.debug.DebugConfiguration">
                <value n="promptForRemoteDebugging" v="false"/>
-               <value n="remoteProtocol" v="OSB"/>
+               <value n="remoteProtocol" v="SOACommon"/>
             </hash>
             <url n="targetURL" path="servicebus.sboverview"/>
          </hash>
