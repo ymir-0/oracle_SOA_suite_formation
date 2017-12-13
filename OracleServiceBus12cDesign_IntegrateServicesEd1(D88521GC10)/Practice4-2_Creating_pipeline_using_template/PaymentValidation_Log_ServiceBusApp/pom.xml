@@ -11,6 +11,7 @@
 
     <modules>
         <module>System</module>
+        <module>PaymentValidation_Log</module>
     </modules>
 
 </project>
