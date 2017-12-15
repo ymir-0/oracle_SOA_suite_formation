@@ -2,6 +2,6 @@
 <xml-fragment xmlns:aler="http://www.bea.com/wli/monitoring/alert">
     <aler:description/>
     <aler:AlertToConsole>true</aler:AlertToConsole>
-    <aler:AlertToReportingDataSet>false</aler:AlertToReportingDataSet>
+    <aler:AlertToReportingDataSet>true</aler:AlertToReportingDataSet>
     <aler:AlertToSNMP>false</aler:AlertToSNMP>
 </xml-fragment>
