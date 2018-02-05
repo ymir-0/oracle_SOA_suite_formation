@@ -1,0 +1,3 @@
+default project "PaymentValidation_XQueryTransform" has issues with pipline.
+so a new project "_v2" was created with a pristine pipeline.
+
