@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<composite xmlns="http://xmlns.oracle.com/sca/1.0" xmlns:ui="http://xmlns.oracle.com/soa/designer/" name="ProcessOrder_EnrichSessionID_v2" label="ProcessOrder_EnrichSessionID_v2" ui:displayName="ProcessOrder_EnrichSessionID_v2"/>
