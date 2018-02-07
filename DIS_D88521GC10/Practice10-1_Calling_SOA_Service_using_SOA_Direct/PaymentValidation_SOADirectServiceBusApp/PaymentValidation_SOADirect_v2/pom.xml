@@ -3,15 +3,18 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.oracle.servicebus</groupId>
+        <artifactId>sbar-project-common</artifactId>
+        <version>12.1.3-0-0</version>
+    </parent>
+
     <groupId>PaymentValidation_SOADirectServiceBusApp</groupId>
-    <artifactId>PaymentValidation_SOADirectServiceBusApp</artifactId>
+    <artifactId>PaymentValidation_SOADirect_v2</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <packaging>pom</packaging>
+    <packaging>sbar</packaging>
 
-    <modules>
-        <module>System</module>
-        <module>PaymentValidation_SOADirect_v2</module>
-    </modules>
+    <description/>
 
 </project>
