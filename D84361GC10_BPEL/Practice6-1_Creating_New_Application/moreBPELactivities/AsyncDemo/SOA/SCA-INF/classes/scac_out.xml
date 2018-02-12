@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Faults>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>90</line>
+      <col/>
+      <file>BPEL/AsyncProcess.bpel</file>
+      <name>BPEL/AsyncProcess.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "xsd:string" is not compatible with to-spec of "client:processResponse"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>31</line>
+      <col/>
+      <file>BPEL/CallAsync.bpel</file>
+      <name>BPEL/CallAsync.bpel</name>
+      <fix>Fix the process to be *either* durable or synchronous.</fix>
+      <msg>Process "CallAsync" is both durable (onMessage,Receive,Wait) and synchronous.</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>95</line>
+      <col/>
+      <file>BPEL/CallAsync.bpel</file>
+      <name>BPEL/CallAsync.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "ns1:processResponse" is not compatible with to-spec of "xsd:string"</msg>
+   </Fault>
+</Faults>

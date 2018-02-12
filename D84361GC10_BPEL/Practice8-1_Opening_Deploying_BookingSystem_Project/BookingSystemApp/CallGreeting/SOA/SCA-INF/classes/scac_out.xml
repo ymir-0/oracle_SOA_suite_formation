@@ -1,0 +1,223 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Faults>
+   <Fault>
+      <severity>error</severity>
+      <loc>/ns:composite/ns:import[@location='http://soa12c.example.com:7101/soa-infra/services/default/SayHello!1.0/WSDLs/MakeGreeting.wsdl']</loc>
+      <line>20</line>
+      <col>30</col>
+      <file>/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice8-1_Opening_Deploying_BookingSystem_Project/BookingSystemApp/CallGreeting/SOA/composite.xml</file>
+      <name>/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice8-1_Opening_Deploying_BookingSystem_Project/BookingSystemApp/CallGreeting/SOA/composite.xml</name>
+      <fix/>
+      <msg>Load of wsdl "http://soa12c.example.com:7101/soa-infra/services/default/SayHello!1.0/WSDLs/MakeGreeting.wsdl" failed</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc>/ns:composite/ns:reference[@name='Greeting']</loc>
+      <line>47</line>
+      <col>82</col>
+      <file>/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice8-1_Opening_Deploying_BookingSystem_Project/BookingSystemApp/CallGreeting/SOA/composite.xml</file>
+      <name>/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice8-1_Opening_Deploying_BookingSystem_Project/BookingSystemApp/CallGreeting/SOA/composite.xml</name>
+      <fix/>
+      <msg>Failed to Find Binding "Greeting":"{http://xmlns.oracle.com/FaultHandlingFramework/SayHello/MakeGreeting}MakeGreeting_pt" in WSDL Manager</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>21</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Please check import location or element QNames.</fix>
+      <msg>Error in getting XML input stream: http://soa12c.example.com:7101/soa-infra/services/default/SayHello!1.0/WSDLs/MakeGreeting.wsdl: soa12c.example.com</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>23</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Check location "../WSDLs/CallingProcess.wsdl" and import type "http://schemas.xmlsoap.org/wsdl/"</fix>
+      <msg>Cannot import type "http://schemas.xmlsoap.org/wsdl/" from location "../WSDLs/CallingProcess.wsdl"</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>36</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Make sure that value "client:CallingProcess" is resolvable (check imports, value of "partnerLinkType").</fix>
+      <msg>"partnerLinkType" is set to "client:CallingProcess" on this &lt;bpel:partnerLink>  but it cannot be resolved (check value of "partnerLinkType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>37</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Make sure that value "ns1:MakeGreeting" is resolvable (check imports, value of "partnerLinkType").</fix>
+      <msg>"partnerLinkType" is set to "ns1:MakeGreeting" on this &lt;bpel:partnerLink>  but it cannot be resolved (check value of "partnerLinkType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>48</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Make sure that value "client:CallingProcessRequestMessage" is resolvable (check imports, value of "messageType").</fix>
+      <msg>"messageType" is set to "client:CallingProcessRequestMessage" on this &lt;bpel:variable>  but it cannot be resolved (check value of "messageType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>51</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Make sure that value "client:CallingProcessResponseMessage" is resolvable (check imports, value of "messageType").</fix>
+      <msg>"messageType" is set to "client:CallingProcessResponseMessage" on this &lt;bpel:variable>  but it cannot be resolved (check value of "messageType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>52</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Make sure that value "ns1:MakeGreetingRequestMessage" is resolvable (check imports, value of "messageType").</fix>
+      <msg>"messageType" is set to "ns1:MakeGreetingRequestMessage" on this &lt;bpel:variable>  but it cannot be resolved (check value of "messageType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>53</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Make sure that value "ns1:MakeGreetingResponseMessage" is resolvable (check imports, value of "messageType").</fix>
+      <msg>"messageType" is set to "ns1:MakeGreetingResponseMessage" on this &lt;bpel:variable>  but it cannot be resolved (check value of "messageType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>65</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Check the bpel:partnerLink specified on this activity via attribute "partnerLink" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:receive> refers to a bpel:partnerLink (via the attribute "partnerLink") - this bpel:partnerLink needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>65</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Make sure that value "client:CallingProcess" is resolvable (check imports, value of "portType").</fix>
+      <msg>"portType" is set to "client:CallingProcess" on this &lt;bpel:receive> activity but it cannot be resolved (check value of "portType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>65</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Check the bpel:variable specified on this activity via attribute "variable" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:receive> refers to a bpel:variable (via the attribute "variable") - this bpel:variable needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>67</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>74</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Check the bpel:partnerLink specified on this activity via attribute "partnerLink" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:invoke> refers to a bpel:partnerLink (via the attribute "partnerLink") - this bpel:partnerLink needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>74</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Check the bpel:variable specified on this activity via attribute "outputVariable" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:invoke> refers to a bpel:variable (via the attribute "outputVariable") - this bpel:variable needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>74</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Check the bpel:variable specified on this activity via attribute "inputVariable" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:invoke> refers to a bpel:variable (via the attribute "inputVariable") - this bpel:variable needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>74</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Make sure that value "ns1:MakeGreeting" is resolvable (check imports, value of "portType").</fix>
+      <msg>"portType" is set to "ns1:MakeGreeting" on this &lt;bpel:invoke> activity but it cannot be resolved (check value of "portType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>76</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>84</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Check the bpel:partnerLink specified on this activity via attribute "partnerLink" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:invoke> refers to a bpel:partnerLink (via the attribute "partnerLink") - this bpel:partnerLink needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>84</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Check the bpel:variable specified on this activity via attribute "inputVariable" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:invoke> refers to a bpel:variable (via the attribute "inputVariable") - this bpel:variable needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>84</line>
+      <col/>
+      <file>BPEL/CallingProcess.bpel</file>
+      <name>BPEL/CallingProcess.bpel</name>
+      <fix>Make sure that value "client:CallingProcessCallback" is resolvable (check imports, value of "portType").</fix>
+      <msg>"portType" is set to "client:CallingProcessCallback" on this &lt;bpel:invoke> activity but it cannot be resolved (check value of "portType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+</Faults>

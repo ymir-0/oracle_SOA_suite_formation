@@ -1,0 +1,14 @@
+2018-02-09 10:19:28.115/2.020 Oracle Coherence 12.1.3.0.0 <Info> (thread=main, member=n/a): Loaded operational configuration from "jar:file:/u01/fmw/soa/coherence/lib/coherence.jar!/tangosol-coherence.xml"
+2018-02-09 10:19:28.194/2.099 Oracle Coherence 12.1.3.0.0 <Info> (thread=main, member=n/a): Loaded operational overrides from "jar:file:/u01/fmw/soa/coherence/lib/coherence.jar!/tangosol-coherence-override-dev.xml"
+2018-02-09 10:19:28.195/2.100 Oracle Coherence 12.1.3.0.0 <D5> (thread=main, member=n/a): Optional configuration override "/tangosol-coherence-override.xml" is not specified
+2018-02-09 10:19:28.210/2.115 Oracle Coherence 12.1.3.0.0 <D5> (thread=main, member=n/a): Optional configuration override "cache-factory-config.xml" is not specified
+2018-02-09 10:19:28.210/2.115 Oracle Coherence 12.1.3.0.0 <D5> (thread=main, member=n/a): Optional configuration override "cache-factory-builder-config.xml" is not specified
+2018-02-09 10:19:28.211/2.116 Oracle Coherence 12.1.3.0.0 <D5> (thread=main, member=n/a): Optional configuration override "/custom-mbeans.xml" is not specified
+
+Oracle Coherence Version 12.1.3.0.0 Build 52031
+ Grid Edition: Development mode
+Copyright (c) 2000, 2014, Oracle and/or its affiliates. All rights reserved.
+
+2018-02-09 10:19:28.304/2.209 Oracle Coherence GE 12.1.3.0.0 <Info> (thread=main, member=n/a): Created cache factory com.tangosol.net.DefaultConfigurableCacheFactory
+Feb 09, 2018 10:19:28 AM oracle.fabric.common.wsdl.SchemaManager isIncrementalBuildSupported
+INFO: XMLSchema incremental build enabled.

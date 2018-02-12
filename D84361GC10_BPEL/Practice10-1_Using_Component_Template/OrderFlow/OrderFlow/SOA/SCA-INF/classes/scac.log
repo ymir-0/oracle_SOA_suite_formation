@@ -1,0 +1,19 @@
+2018-02-12 16:30:42.018/2.028 Oracle Coherence 12.1.3.0.0 <Info> (thread=main, member=n/a): Loaded operational configuration from "jar:file:/u01/fmw/soa/coherence/lib/coherence.jar!/tangosol-coherence.xml"
+2018-02-12 16:30:42.097/2.107 Oracle Coherence 12.1.3.0.0 <Info> (thread=main, member=n/a): Loaded operational overrides from "jar:file:/u01/fmw/soa/coherence/lib/coherence.jar!/tangosol-coherence-override-dev.xml"
+2018-02-12 16:30:42.107/2.117 Oracle Coherence 12.1.3.0.0 <D5> (thread=main, member=n/a): Optional configuration override "/tangosol-coherence-override.xml" is not specified
+2018-02-12 16:30:42.109/2.119 Oracle Coherence 12.1.3.0.0 <D5> (thread=main, member=n/a): Optional configuration override "cache-factory-config.xml" is not specified
+2018-02-12 16:30:42.110/2.120 Oracle Coherence 12.1.3.0.0 <D5> (thread=main, member=n/a): Optional configuration override "cache-factory-builder-config.xml" is not specified
+2018-02-12 16:30:42.111/2.121 Oracle Coherence 12.1.3.0.0 <D5> (thread=main, member=n/a): Optional configuration override "/custom-mbeans.xml" is not specified
+
+Oracle Coherence Version 12.1.3.0.0 Build 52031
+ Grid Edition: Development mode
+Copyright (c) 2000, 2014, Oracle and/or its affiliates. All rights reserved.
+
+2018-02-12 16:30:42.207/2.217 Oracle Coherence GE 12.1.3.0.0 <Info> (thread=main, member=n/a): Created cache factory com.tangosol.net.DefaultConfigurableCacheFactory
+Feb 12, 2018 4:30:47 PM oracle.fabric.common.wsdl.WSDLManager loadWSDL
+WARNING: Failed to load WSDL from WSDLs/ValidateCreditCardWrapper.wsdl due to: WSDLException: faultCode=INVALID_WSDL: Error reading import of file:/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice10-1_Using_Component_Template/OrderFlow/OrderFlow/SOA/WSDLs/ValidateCreditCardWrapper.wsdl: oracle.j2ee.ws.wsdl.LocalizedWSDLException: WSDLException: faultCode=PARSER_ERROR: Failed to read wsdl file at: "http://soa12c.example.com:7101/soa-infra/services/default/CCValidate!1.0/WSDLs/ValidateCreditCard.wsdl", caused by: java.net.UnknownHostException.: java.net.UnknownHostException: soa12c.example.com: Name or service not known
+WARNING: Failed to load WSDL from http://soa12c.example.com:7101/soa-infra/services/default/Approval!1.0/WSDLs/Approval.wsdl due to: Error in getting XML input stream: http://soa12c.example.com:7101/soa-infra/services/default/Approval!1.0/WSDLs/Approval.wsdl: soa12c.example.com
+INFO: XMLSchema incremental build enabled.
+WARNING: Failed to load WSDL from http://soa12c.example.com:7101/soa-infra/services/default/CCValidate/ValidateCreditCard_ep?WSDL due to: Error in getting XML input stream: http://soa12c.example.com:7101/soa-infra/services/default/CCValidate/ValidateCreditCard_ep?WSDL: soa12c.example.com
+WARNING: Failed to load WSDL from http://soa12c.example.com:7101/soa-infra/services/default/Approval/approval_client_ep?WSDL due to: Error in getting XML input stream: http://soa12c.example.com:7101/soa-infra/services/default/Approval/approval_client_ep?WSDL: soa12c.example.com
+WARNING: Failed to load WSDL from WSDLs/ValidateCreditCardWrapper.wsdl due to: WSDLException: faultCode=INVALID_WSDL: Error reading import of file:/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice10-1_Using_Component_Template/OrderFlow/OrderFlow/SOA/WSDLs/ValidateCreditCardWrapper.wsdl: oracle.j2ee.ws.wsdl.LocalizedWSDLException: WSDLException: faultCode=PARSER_ERROR: Failed to read wsdl file at: "http://soa12c.example.com:7101/soa-infra/services/default/CCValidate!1.0/WSDLs/ValidateCreditCard.wsdl", caused by: java.net.UnknownHostException.: java.net.UnknownHostException: soa12c.example.com

@@ -1,0 +1,513 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Faults>
+   <Fault>
+      <severity>error</severity>
+      <loc>/ns:composite/ns:import[@location='WSDLs/ValidateCreditCardWrapper.wsdl']</loc>
+      <line>21</line>
+      <col>78</col>
+      <file>/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice10-1_Using_Component_Template/OrderFlow/OrderFlow/SOA/composite.xml</file>
+      <name>/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice10-1_Using_Component_Template/OrderFlow/OrderFlow/SOA/composite.xml</name>
+      <fix/>
+      <msg>Load of wsdl "WSDLs/ValidateCreditCardWrapper.wsdl" failed</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc>/ns:composite/ns:import[@location='http://soa12c.example.com:7101/soa-infra/services/default/Approval!1.0/WSDLs/Approval.wsdl']</loc>
+      <line>24</line>
+      <col>30</col>
+      <file>/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice10-1_Using_Component_Template/OrderFlow/OrderFlow/SOA/composite.xml</file>
+      <name>/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice10-1_Using_Component_Template/OrderFlow/OrderFlow/SOA/composite.xml</name>
+      <fix/>
+      <msg>Load of wsdl "http://soa12c.example.com:7101/soa-infra/services/default/Approval!1.0/WSDLs/Approval.wsdl" failed</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc>/ns:composite/ns:reference[@name='ValidationService']</loc>
+      <line>53</line>
+      <col>90</col>
+      <file>/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice10-1_Using_Component_Template/OrderFlow/OrderFlow/SOA/composite.xml</file>
+      <name>/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice10-1_Using_Component_Template/OrderFlow/OrderFlow/SOA/composite.xml</name>
+      <fix/>
+      <msg>Failed to Find Binding "ValidationService":"{http://xmlns.oracle.com/Basics/CCValidate/ValidateCreditCard}validateCC_pt" in WSDL Manager</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc>/ns:composite/ns:reference[@name='ApprovalService']</loc>
+      <line>61</line>
+      <col>85</col>
+      <file>/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice10-1_Using_Component_Template/OrderFlow/OrderFlow/SOA/composite.xml</file>
+      <name>/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice10-1_Using_Component_Template/OrderFlow/OrderFlow/SOA/composite.xml</name>
+      <fix/>
+      <msg>Failed to Find Binding "ApprovalService":"{http://xmlns.oracle.com/BPELProjects/Approval/Approval}Approval_pt" in WSDL Manager</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>34</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Please check import location or element QNames.</fix>
+      <msg>javax.wsdl.WSDLException: WSDLException: faultCode=INVALID_WSDL: Error reading import of file:/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice10-1_Using_Component_Template/OrderFlow/OrderFlow/SOA/WSDLs/ValidateCreditCardWrapper.wsdl: oracle.j2ee.ws.wsdl.LocalizedWSDLException: WSDLException: faultCode=PARSER_ERROR: Failed to read wsdl file at: "http://soa12c.example.com:7101/soa-infra/services/default/CCValidate!1.0/WSDLs/ValidateCreditCard.wsdl", caused by: java.net.UnknownHostException.: java.net.UnknownHostException: soa12c.example.com: WSDLException: faultCode=INVALID_WSDL: Error reading import of file:/home/oracle/Development/oracle_SOA_suite_formation/D84361GC10_BPEL/Practice10-1_Using_Component_Template/OrderFlow/OrderFlow/SOA/WSDLs/ValidateCreditCardWrapper.wsdl: oracle.j2ee.ws.wsdl.LocalizedWSDLException: WSDLException: faultCode=PARSER_ERROR: Failed to read wsdl file at: "http://soa12c.example.com:7101/soa-infra/services/default/CCValidate!1.0/WSDLs/ValidateCreditCard.wsdl", caused by: java.net.UnknownHostException.: java.net.UnknownHostException: soa12c.example.com</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>38</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>42</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>48</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Check the bpel:partnerLink specified on this activity via attribute "partnerLink" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:invoke> refers to a bpel:partnerLink (via the attribute "partnerLink") - this bpel:partnerLink needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>48</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Check the bpel:variable specified on this activity via attribute "inputVariable" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:invoke> refers to a bpel:variable (via the attribute "inputVariable") - this bpel:variable needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>48</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "ns6:UpdateStatus_ptt" is resolvable (check imports, value of "portType").</fix>
+      <msg>"portType" is set to "ns6:UpdateStatus_ptt" on this &lt;bpel:invoke> activity but it cannot be resolved (check value of "portType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>51</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Check location "../WSDLs/ProcessOrder.wsdl" and import type "http://schemas.xmlsoap.org/wsdl/"</fix>
+      <msg>Cannot import type "http://schemas.xmlsoap.org/wsdl/" from location "../WSDLs/ProcessOrder.wsdl"</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>64</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "client:ProcessOrder" is resolvable (check imports, value of "partnerLinkType").</fix>
+      <msg>"partnerLinkType" is set to "client:ProcessOrder" on this &lt;bpel:partnerLink>  but it cannot be resolved (check value of "partnerLinkType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>65</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "ns1:ValidationService" is resolvable (check imports, value of "partnerLinkType").</fix>
+      <msg>"partnerLinkType" is set to "ns1:ValidationService" on this &lt;bpel:partnerLink>  but it cannot be resolved (check value of "partnerLinkType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>67</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "ns2:Approval" is resolvable (check imports, value of "partnerLinkType").</fix>
+      <msg>"partnerLinkType" is set to "ns2:Approval" on this &lt;bpel:partnerLink>  but it cannot be resolved (check value of "partnerLinkType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>68</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "ns6:UpdateStatus_plt" is resolvable (check imports, value of "partnerLinkType").</fix>
+      <msg>"partnerLinkType" is set to "ns6:UpdateStatus_plt" on this &lt;bpel:partnerLink>  but it cannot be resolved (check value of "partnerLinkType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>79</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "client:ProcessOrderRequestMessage" is resolvable (check imports, value of "messageType").</fix>
+      <msg>"messageType" is set to "client:ProcessOrderRequestMessage" on this &lt;bpel:variable>  but it cannot be resolved (check value of "messageType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>82</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "client:ProcessOrderResponseMessage" is resolvable (check imports, value of "messageType").</fix>
+      <msg>"messageType" is set to "client:ProcessOrderResponseMessage" on this &lt;bpel:variable>  but it cannot be resolved (check value of "messageType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>83</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "ns1:requestMessage" is resolvable (check imports, value of "messageType").</fix>
+      <msg>"messageType" is set to "ns1:requestMessage" on this &lt;bpel:variable>  but it cannot be resolved (check value of "messageType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>84</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "ns1:replyMessage" is resolvable (check imports, value of "messageType").</fix>
+      <msg>"messageType" is set to "ns1:replyMessage" on this &lt;bpel:variable>  but it cannot be resolved (check value of "messageType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>85</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "ns2:ApprovalRequestMessage" is resolvable (check imports, value of "messageType").</fix>
+      <msg>"messageType" is set to "ns2:ApprovalRequestMessage" on this &lt;bpel:variable>  but it cannot be resolved (check value of "messageType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>86</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "ns2:ApprovalResponseMessage" is resolvable (check imports, value of "messageType").</fix>
+      <msg>"messageType" is set to "ns2:ApprovalResponseMessage" on this &lt;bpel:variable>  but it cannot be resolved (check value of "messageType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>87</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "ns6:BcaOrdersCollection_msg" is resolvable (check imports, value of "messageType").</fix>
+      <msg>"messageType" is set to "ns6:BcaOrdersCollection_msg" on this &lt;bpel:variable>  but it cannot be resolved (check value of "messageType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>100</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Check the bpel:partnerLink specified on this activity via attribute "partnerLink" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:receive> refers to a bpel:partnerLink (via the attribute "partnerLink") - this bpel:partnerLink needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>100</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "client:ProcessOrder" is resolvable (check imports, value of "portType").</fix>
+      <msg>"portType" is set to "client:ProcessOrder" on this &lt;bpel:receive> activity but it cannot be resolved (check value of "portType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>100</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Check the bpel:variable specified on this activity via attribute "variable" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:receive> refers to a bpel:variable (via the attribute "variable") - this bpel:variable needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>102</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>108</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>112</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>120</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Check the bpel:partnerLink specified on this activity via attribute "partnerLink" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:invoke> refers to a bpel:partnerLink (via the attribute "partnerLink") - this bpel:partnerLink needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>120</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Check the bpel:variable specified on this activity via attribute "inputVariable" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:invoke> refers to a bpel:variable (via the attribute "inputVariable") - this bpel:variable needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>120</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Check the bpel:variable specified on this activity via attribute "outputVariable" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:invoke> refers to a bpel:variable (via the attribute "outputVariable") - this bpel:variable needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>120</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "ns1:validateCC_ptt" is resolvable (check imports, value of "portType").</fix>
+      <msg>"portType" is set to "ns1:validateCC_ptt" on this &lt;bpel:invoke> activity but it cannot be resolved (check value of "portType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>122</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>137</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>141</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>145</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>149</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>153</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>157</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>161</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>165</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>171</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Check the bpel:partnerLink specified on this activity via attribute "partnerLink" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:invoke> refers to a bpel:partnerLink (via the attribute "partnerLink") - this bpel:partnerLink needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>171</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Check the bpel:variable specified on this activity via attribute "inputVariable" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:invoke> refers to a bpel:variable (via the attribute "inputVariable") - this bpel:variable needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>171</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "ns2:Approval" is resolvable (check imports, value of "portType").</fix>
+      <msg>"portType" is set to "ns2:Approval" on this &lt;bpel:invoke> activity but it cannot be resolved (check value of "portType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>173</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Check the bpel:partnerLink specified on this activity via attribute "partnerLink" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:receive> refers to a bpel:partnerLink (via the attribute "partnerLink") - this bpel:partnerLink needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>173</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "ns2:ApprovalCallback" is resolvable (check imports, value of "portType").</fix>
+      <msg>"portType" is set to "ns2:ApprovalCallback" on this &lt;bpel:receive> activity but it cannot be resolved (check value of "portType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>173</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Check the bpel:variable specified on this activity via attribute "variable" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:receive> refers to a bpel:variable (via the attribute "variable") - this bpel:variable needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>175</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Types must be compatible.</fix>
+      <msg>The from-spec of "type" is not compatible with to-spec of "type"</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>192</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Check the bpel:partnerLink specified on this activity via attribute "partnerLink" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:reply> refers to a bpel:partnerLink (via the attribute "partnerLink") - this bpel:partnerLink needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>192</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Check the bpel:variable specified on this activity via attribute "variable" and make sure it is itself specified correctly.</fix>
+      <msg>The activity &lt;bpel:reply> refers to a bpel:variable (via the attribute "variable") - this bpel:variable needs to be defined correctly.</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>192</line>
+      <col/>
+      <file>BPEL/ProcessOrder.bpel</file>
+      <name>BPEL/ProcessOrder.bpel</name>
+      <fix>Make sure that value "client:ProcessOrder" is resolvable (check imports, value of "portType").</fix>
+      <msg>"portType" is set to "client:ProcessOrder" on this &lt;bpel:reply> activity but it cannot be resolved (check value of "portType", imports, WSDLs or XSDs).</msg>
+   </Fault>
+</Faults>
